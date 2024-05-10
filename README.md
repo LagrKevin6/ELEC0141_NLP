@@ -9,7 +9,7 @@ TF-IDF, BERT (Longformer) and Nomic embeddings are tested, with default selectio
 
 # Files in the repository:
 
-**Dataset** folder: contains the original dataset, i.e. policy.xlsx, including policy scripts and 200 different queries regarding of different clauses of the policy, with true labels of what clauses is expected to be retrieved. The dataset is created by our MSc project team and permission from all the teammates and supervisors are granted.
+**Dataset** folder: contains the original dataset, i.e. policy.xlsx, including policy scripts and 200 different queries regarding of different clauses of the policy, with true labels of what clauses is expected to be retrieved. The dataset is created by our MSc project team and permission from all the teammates and supervisors are obtained.
 Results files, i.e. data_bert.csv and data_tfidf.csv for plotting is also stored here.
 
 **Models_notebooks** folder: contains one .ipynb file for implementing each model, tf-idf, longformer, nomic, respectively. A meaningful copy for final generation comparison is also included.
