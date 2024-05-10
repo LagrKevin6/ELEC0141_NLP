@@ -213,7 +213,7 @@ plt.xlabel('Num of Searched Results')
 plt.ylabel('Percentage')
 plt.title('Fully Match Accuracy and Average Coverage vs. Num of Searched Results Included')
 plt.legend()
-plt.savefig('../images/acc_1.png')  # Save the plot
+plt.savefig('images/acc_1.png')  # Save the plot
 plt.close()  # Close the figure to release memory 
 
 # Plot number of tokens
@@ -247,7 +247,7 @@ indices = temp_q
 
 # combining the full query with full searched docs
 combined_query = query_text
-for temp in indices.flatten().tolist():
+for temp in indices:
     combined_query = combined_query + ' ' + policy_scripts[temp]
 
 fully_load_query = query_text
